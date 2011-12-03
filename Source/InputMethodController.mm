@@ -230,7 +230,7 @@ public:
             [[NSUserDefaults standardUserDefaults] setInteger:0 forKey:kKeyboardLayoutPreferenceKey];
     }
 	if (keyboardLayout < 4) {
-		[client overrideKeyboardWithKeyboardNamed:@"com.apple.keylayout.US"];
+		[client overrideKeyboardWithKeyboardNamed:@"com.apple.keylayout.Colemak"];
 	}
 
     // set the size
